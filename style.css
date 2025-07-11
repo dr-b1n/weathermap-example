@@ -1,0 +1,55 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contents */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FTz7BT%2Fbtr5ZlDMfpb%2FAAAAAAAAAAAAAAAAAAAAAGgWoDqjeActTfDMLwcThHFlOrd5RmD17BZ2KZUZ7zeb%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1753973999%26allow_ip%3D%26allow_referer%3D%26signature%3DSDDNzqI9Rc5Yrlr%252FMP3LP8vbBVE%253D) center/cover no-repeat;
+}
+
+.current-weather {
+  width: 300px;
+  height: 300px;
+  background: rgba(204, 204, 204, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 2rem;
+}
+ 
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.4rem;
+}
